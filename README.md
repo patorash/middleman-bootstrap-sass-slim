@@ -6,6 +6,7 @@ A Middleman Project Template built with Twitter Bootstrap, Sass & Slim
 
 ```
 git clone https://github.com/patorash/middleman-bootstrap-sass-slim.git ~/.middleman/bootstrap-sass-slim
+rm -rf ~/.middleman/bootstrap-sass-slim/.git
 middleman init my_new_project --template=bootstrap-sass-slim
 ```
 
