@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 source 'https://rails-assets.org'
 
-gem 'middleman', '~> 3.3.6'
+gem "middleman", "~>3.3.7"
 
 # Live-reloading plugin
 gem 'middleman-livereload', '~> 3.3.4'
@@ -16,8 +16,11 @@ gem 'wdm', '~> 0.1.0', platforms: [:mswin, :mingw]
 gem 'tzinfo-data', platforms: [:mswin, :mingw]
 
 # Slim template engine
-gem 'slim', '~> 2.1.0'
+gem 'slim', '~> 3.0.1'
 
 # Assets
 gem 'bootstrap-sass', '~> 3.2.0', require: false
 gem 'rails-assets-jquery', require: false
+gem 'zurui-sass-middleman', '~> 0.0.2'
+gem 'middleman-bower'
+gem 'middleman-bootstrap-navbar'
